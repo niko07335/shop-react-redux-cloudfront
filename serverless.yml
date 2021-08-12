@@ -1,4 +1,4 @@
-service: node-in-aws-web
+service: niko-second-rs-app
 
 frameworkVersion: '2'
 
@@ -17,7 +17,7 @@ plugins:
 
 custom:
   client:
-    bucketName: node-in-aws-web-bucket
+    bucketName: niko-second-rs-app
     distributionFolder: build
   s3BucketName: ${self:custom.client.bucketName}
 
